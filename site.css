@@ -5,6 +5,7 @@ background-color: dimgrey;
 color: #696969
 padding: 3px;
 }
+
 #main {
 padding: 5px;
 pading-left: 15px;
@@ -19,12 +20,13 @@ border-bottom: 3px solid #cc9900;
 color: #996600;
 font-size: 30px
 }
+
 img#sideview{
     box-sizing: border-box;
     width: 20%;
     float: right;
 }
-div{
+div.row{
     div#menu;
     float:left;
     width: 15%;
