@@ -14,20 +14,20 @@ body
 }
 
 /* Center paragraph text and limit width */
-body p
+p
 {
-    margin: 10px auto;
+    margin: 10px;
     max-width: 60em;
 }
 
 /* Colorize links to red */
-body a
+a
 {
     color: #f06060;
 }
 
 /* Give clicked links a slightly darker tone */
-body a:visited
+a:visited
 {
     color: #bf2121;
 }
@@ -37,9 +37,23 @@ div#main
 {
     padding: 5px 15px;
     background-color: #FFF;
-    border-radius: 0 0 5px 5px;
+    border-radius: 5px 5px 5px 5px;
 }
 
+div#content
+{
+    paddding: 5px 15px;
+    background-color: de5d83;
+    border-radius: 5px 5px 5px 5px;
+}
+
+div#menu
+{
+        paddding: 5px 15px;
+    background-color: 318ce7;
+    background-image: url(Images/flag.jpg);
+    border-radius: 7px 7px 7px 7px;
+}
 /* Alter headings */
 h1
 {
@@ -76,10 +90,10 @@ figcaption
 div.row > div#menu
 {
     float: left;
-    width: 15%;
+    width: 13%;
 }
 div.row > div#content
 {
     float: right;
-    width: 85%;
+    width: 83%;
 }
